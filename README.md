@@ -11,11 +11,11 @@ This chart visualizes my core proficiencies, highlighting the areas where I focu
 | Skill Area | Primary Tools & Frameworks | Proficiency |
 | :--- | :--- | :--- |
 | **Core Programming** | [cite_start]**Python** [cite: 11] | 🟢🟢🟢🟢🟢 (Main) |
-| **Data Analysis** | [cite_start]**Pandas, NumPy, Scikit-learn** [cite: 17] | 🟢🟢🟢🟢⚪ (Strong) |
+| **Data Analysis** | [cite_start]**Pandas, NumPy** [cite: 17] | 🟢🟢🟢🟢⚪ (Strong) |
 | **Data Visualization** | [cite_start]**Matplotlib, Seaborn, PowerBI** [cite: 17, 16] | 🟢🟢🟢🟢⚪ (Strong) |
 | **Database Systems** | [cite_start]**MySQL Server, SQLite** [cite: 14, 15] | 🟢🟢🟢⚪⚪ (Proficient) |
+| **Machine Learning** | [cite_start]**Scikit-learn** [cite: 17] | 🟢🟢🟢🟢⚪ (Strong) |
 | **Deep Learning** | [cite_start]Keras, TensorFlow, Pytorch [cite: 18] | 🟢🟢⚪⚪⚪ (Familiar) |
-| **Web/Basic Langs** | [cite_start]Java, C [cite: 12] | 🟢⚪⚪⚪⚪ (Basic) |
 
 ### 🛠️ Key Data & Tools Stack
 
