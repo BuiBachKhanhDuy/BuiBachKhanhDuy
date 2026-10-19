@@ -1,10 +1,37 @@
-# Bui Bach Khanh Duy
+<h1 align="center">Bui Bach Khanh Duy</h1>
 
-**AI Automation & Data Analyst** | Computer Science, Ton Duc Thang University
+<p align="center">
+  <b>AI Automation & Data Analyst</b><br>
+  <i>Turning messy documents and raw data into systems that deliver.</i>
+</p>
 
-I build AI automation systems and analyze data, from LLM and RAG pipelines to forecasting and computer vision projects. My goal is to use data analysis to build and improve AI systems that deliver real-world impact.
+<p align="center">
+  <a href="mailto:buibachkhanhduy.work@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://linkedin.com/in/buibachkhanhduy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
-[Email](mailto:buibachkhanhduy.work@gmail.com) | [LinkedIn](https://linkedin.com/in/buibachkhanhduy) | [GitHub](https://github.com/BuiBachKhanhDuy)
+---
+
+## About
+
+```python
+class BuiBachKhanhDuy:
+    role       = "AI Automation & Data Analyst"
+    education  = "B.Sc. Computer Science, Ton Duc Thang University (2022-2026)"
+    experience = "AI Automation Module Engineer Intern @ Intel"
+    focus      = ["LLM & RAG pipelines", "Workflow automation", "Data analysis & forecasting"]
+    exploring  = "Data & AI"
+    languages  = {"Vietnamese": "native", "English": "IELTS 6.0"}
+    goal       = "Use data analysis to build and improve AI systems that deliver real-world impact"
+```
+
+---
+
+## What I Build
+
+- **Document intelligence:** pipelines that route each page across layout models, OCR, and LLM/VLM agents, then turn technical documents into structured, searchable knowledge.
+- **RAG systems:** hybrid retrieval (dense + BM25 with Reciprocal Rank Fusion) in LangGraph workflows with relevance grading, query rewriting, and source-grounded answers.
+- **Forecasting and ML:** multimodal models that combine market time series with Vietnamese financial news, plus computer vision and recommendation projects.
 
 ---
 
@@ -13,61 +40,60 @@ I build AI automation systems and analyze data, from LLM and RAG pipelines to fo
 **AI Automation Module Engineer Intern, Intel** (Jan 2026 - Jul 2026)
 
 - Built an end-to-end agentic ingestion pipeline in Python that parses technical documents (PDF, DOCX, HTML) into content, document structure, and images for a RAG system.
-- Designed per-page routing across layout models, OCR, and LLM/VLM agents; scaled processing with Celery and Redis, reducing processing time by ~60% and infrastructure cost by 25%.
+- Designed per-page routing across layout models, OCR, and LLM/VLM agents; scaled processing with Celery and Redis.
 - Implemented LLM-based document reconstruction and designed a PostgreSQL/pgvector schema supporting parent-child chunk hierarchies and metadata filtering.
-- Developed a hybrid retrieval pipeline combining dense retrieval and BM25 with Reciprocal Rank Fusion, integrated into a LangGraph workflow for relevance grading, query rewriting, and source-grounded answers.
+- Developed a hybrid retrieval pipeline integrated into a LangGraph workflow for relevance grading, query rewriting, and source-grounded answers.
 
 ---
 
-## Featured Projects
+## Tech Stack
 
-| Project | Description | Tech |
-| :--- | :--- | :--- |
-| [Cross-Modal Temporal Fusion for Vietnamese Financial Forecasting](https://github.com/BuiBachKhanhDuy/Cross-modal-Temporal-Fusion-for-Vietnamese-Bank-Stock-Timeseries-Forecasting) | Thesis project (9.2/10, highest score in the semester, six months of research). Fuses Chronos time-series embeddings with Vietnamese financial news through cross-modal attention to forecast stock returns across multiple horizons. | PyTorch, Hugging Face, Scikit-learn, Optuna |
-| [FastAPI Movie Recommendation System](https://github.com/BuiBachKhanhDuy/FastAPI_Movie_Recommendation_System) | Dockerized FastAPI service combining content-based and collaborative filtering over user and metadata features, with a sentiment classifier to enrich results. | FastAPI, Pandas, Scikit-learn, NLTK, Docker |
-| [Real-Time Background Replacement and Filters](https://github.com/BuiBachKhanhDuy/Real-Time_Background_Replacement-Filters_YoloV11) | Real-time webcam background replacement with YOLOv11 segmentation and MediaPipe Face Mesh filters, supporting single- and multi-person detection. | Python, OpenCV, YOLO, MediaPipe |
-| [DistilBERT Embeddings for Sentiment Analysis](https://github.com/BuiBachKhanhDuy/DistilBERT_embeddings_model_for_Sentiment_Analysis) | Transformer model that predicts sentiment (positive, negative, neutral) from a short text and its supplementary context. | Python, Transformers |
-| [Gold Price Prediction with Yahoo Finance](https://github.com/BuiBachKhanhDuy/Gold_Price_Predict_Model_with_Yfinance) | Gold price trend prediction using Yahoo Finance data, covering data visualization, preprocessing, and model training. | Python, Jupyter |
+**Languages & Backend**<br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
----
+**LLM & ML**<br>
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 
-## Technical Skills
-
-| Area | Tools |
-| :--- | :--- |
-| **Languages** | Python, SQL |
-| **Automation & Backend** | FastAPI, Celery, Redis, PostgreSQL (pgvector), MySQL, SQLite |
-| **LLM & RAG** | LangChain, LangGraph, dense retrieval, BM25, Reciprocal Rank Fusion, LLM/VLMs |
-| **Machine Learning** | Scikit-learn, PyTorch, TensorFlow, Keras, Hugging Face Transformers, Optuna |
-| **Computer Vision** | OpenCV, YOLO, MediaPipe |
-| **Data & BI** | Pandas, NumPy, Matplotlib, Seaborn, Power BI, Excel, Google Sheets |
-| **Tools** | Git, GitHub, Docker |
+**Data & BI**<br>
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 ---
 
 ## Achievements
 
-- **Thesis Project: 9.2/10**, highest score in the semester, after six months of research.
-- **Intel VNAT AI Hackathon 2026:** First Prize and Most Favored Team. Team proposed an agentic system for automated data collection and machine setup optimization, reducing running time by 20%.
-- **Data Storm Datathon 2025:** Consolation Prize. Performed EDA, hypothesis testing (t-tests, ANOVA), data cleaning, and feature engineering on pose data, and developed a computer vision classification model and demo application.
+- **Thesis Project: 9.2/10**, highest score in the semester, after six months of research on cross-modal temporal fusion for Vietnamese financial forecasting.
+- **Intel VNAT AI Hackathon 2026:** First Prize and Most Favored Team, for an agentic system for automated data collection and machine setup optimization that reduced running time by 20%.
+- **Data Storm Datathon 2025:** Consolation Prize, for EDA, hypothesis testing (t-tests, ANOVA), and a computer vision classification model with a demo application.
 
 ---
 
-## Education
+<details>
+<summary><b>Certifications</b></summary>
 
-**Ton Duc Thang University** | Bachelor of Computer Science (2022 - 2026)
-
----
-
-## Certifications
+<br>
 
 - **IBM:** Python Project for Data Science (2026); Data Analysis with Python (2025); Python for Data Science, AI & Development (2025); Data Science Methodology (2025)
 - **LinkedIn:** Building AI Products: Implementing Responsible AI Professional (2026)
 - **Alison:** Leveraging AI in Predictive Analytics, Automation, and Data Management (2025); SQL Server for Data Analysis (2025); Master Microsoft Power BI (2025)
 - **Packt:** Docker Fundamentals: Understanding Containers and Images (2026)
 
+</details>
+
 ---
 
-## Languages
-
-Vietnamese (native), English (IELTS 6.0)
+<p align="center"><i>Open to opportunities in AI automation and data. Let's connect.</i></p>
